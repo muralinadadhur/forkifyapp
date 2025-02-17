@@ -1,4 +1,3 @@
-
 import * as model from './model.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 import recipeview from './views/recipeview.js';
@@ -147,7 +146,6 @@ const init = function() {
   searchView.addHandlerSearch(controlSearchResults);
   paginationview.addHandlerClick(controlPagination);
   addRecipeview.addHandlerUpload(controlAddRecipe);
-  console.log("Adding a new log message to track the changes...")
 };
 
 init();
